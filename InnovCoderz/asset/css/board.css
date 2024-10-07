@@ -1,0 +1,89 @@
+.board1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 105vh;
+    margin: 0;
+    position: relative;
+}
+.board {
+    height: 650px;
+   width: 100%;
+    border: 1px solid none;
+    background-color: white;
+    box-shadow: 2px 2px 3px 3px black;
+    cursor: crosshair;
+    display: block; 
+}
+.left-board{
+    height: 700px;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 100px;
+}
+.bottom-board{
+    margin-top: 500px;
+    margin-left: 60px;
+}
+.page-sec{
+    margin-left: 836px;
+}
+.list-icon:hover{
+    
+}
+@media screen and (max-width:1200px) and (min-width:1099px) {
+    .page-sec{
+        margin-left: 500px;
+    }
+    .board1 {
+        height: 110vh;
+    }
+}
+@media screen and (max-width:1025px) and (min-width:700px) {
+    .page-sec{
+        margin-left: 300px;
+    }
+    .board1 {
+        height: 110vh;
+    }
+}
+@media screen and (max-width:695px)  {
+    .head-board{
+        width: 330px;
+        margin-left:-500px;
+    }
+    .page-sec{
+        margin-left: 100px;
+    }
+    .bottom-board{
+        margin-left: 10px;
+    }
+    .board-full{
+        margin-left: -50px;
+    }
+    .board-full1{
+        margin-left: -50px;
+    }
+    .board1 {
+        height: 110vh;
+    }
+}
+@media screen and (max-height:600px) and (min-height:400px) {
+    .board1 {
+        height: 140vh;
+    }
+}
+@media screen and (max-height:399px) and (min-height:250px) {
+    .board1 {
+        height: 200vh;
+    }
+}
+@media screen and (max-height:249px) and (min-height:50px) {
+    .board1 {
+        height: 300vh;
+    }
+}
+
+
+
+
